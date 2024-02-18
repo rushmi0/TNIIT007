@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C1DFD6"
+    tools:context=".week4_a">
+
+    <Button
+        android:id="@+id/toPageBBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="41dp"
+        android:layout_y="99dp"
+        android:text="open page B" />
+
+    <Button
+        android:id="@+id/addrBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="117dp"
+        android:layout_y="155dp"
+        android:text="View Address" />
+
+    <Button
+        android:id="@+id/mapImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="237dp"
+        android:layout_y="211dp"
+        android:text="Map IMG" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="1dp"
+        android:layout_y="4dp"
+        android:background="#00FFFFFF"
+        android:text="Page 4A"
+        android:textColor="#7A7878"
+        android:textSize="45dp"
+        android:textStyle="bold" />
+</AbsoluteLayout>
