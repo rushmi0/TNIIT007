@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4CAF50"
+    tools:context=".Week6_a">
+
+    <TextView
+        android:id="@+id/page6a"
+        android:layout_width="111dp"
+        android:layout_height="47dp"
+        android:layout_x="152dp"
+        android:layout_y="108dp"
+        android:gravity="center"
+        android:text="Page 6 A"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/result6a"
+        android:layout_width="89dp"
+        android:layout_height="53dp"
+        android:layout_x="163dp"
+        android:layout_y="198dp"
+        android:gravity="center"
+        android:text="Result"
+        android:textSize="20sp" />
+
+</AbsoluteLayout>
