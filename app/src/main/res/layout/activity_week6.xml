@@ -22,7 +22,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_x="84dp"
-        android:layout_y="203dp"
+        android:layout_y="189dp"
         android:ems="10"
         android:hint="Score"
         android:inputType="number"
@@ -32,8 +32,8 @@
         android:id="@+id/save6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_x="155dp"
-        android:layout_y="299dp"
+        android:layout_x="158dp"
+        android:layout_y="335dp"
         android:text="save"
         android:textColorHighlight="#673AB7" />
 
@@ -49,7 +49,17 @@
         android:id="@+id/open6b"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_x="296dp"
-        android:layout_y="419dp"
+        android:layout_x="263dp"
+        android:layout_y="426dp"
         android:text="openB" />
+
+    <EditText
+        android:id="@+id/nameText"
+        android:layout_width="230dp"
+        android:layout_height="55dp"
+        android:layout_x="86dp"
+        android:layout_y="257dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="text" />
 </AbsoluteLayout>

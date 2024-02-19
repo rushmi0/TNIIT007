@@ -15,7 +15,7 @@ public class Week6 extends AppCompatActivity {
 
     // Step 1
     Button myOpen6A, myOpen6B, mySave;
-    EditText myScore;
+    EditText myScore, myNameText;
 
 
     @Override
@@ -29,6 +29,7 @@ public class Week6 extends AppCompatActivity {
         myOpen6B = findViewById(R.id.open6b);
         mySave = findViewById(R.id.save6);
         myScore = findViewById(R.id.score);
+        myNameText = findViewById(R.id.nameText);
 
         myOpen6A.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -62,11 +63,13 @@ public class Week6 extends AppCompatActivity {
             public void onClick(View view) {
 
                 // Step 4
+                String name = myNameText.getText().toString();
                 int score = Integer.parseInt(myScore.getText().toString());
+                editor.putString("Name", name);
                 editor.putInt("score", score);
                 editor.commit();
 
-                Toast.makeText(getApplicationContext(), "OK! OK! OK!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "OK! Saved", Toast.LENGTH_SHORT).show();
             }
         });
 
